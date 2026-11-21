@@ -1,0 +1,23 @@
+﻿using tyuiu.cources.programming.interfaces.Sprint4;
+namespace Tyuiu.KupriyanovNM.Sprint4.Task3.V6.Lib
+{
+    public class DataService : ISprint4Task3V6
+    {
+        public int Calculate(int[,] array)
+        {
+            int columns = array.Length / (array.GetUpperBound(0) + 1);
+
+            int max = array[1, 0];
+
+            for (int j = 1; j < columns; j++)
+            {
+                if (array[1, j] > max)
+                {
+                    max = array[1, j];
+                }
+            }
+
+            return max;
+        }
+    }
+}
