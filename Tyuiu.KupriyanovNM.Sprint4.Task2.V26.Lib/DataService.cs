@@ -15,7 +15,7 @@ namespace Tyuiu.KupriyanovNM.Sprint4.Task2.V26.Lib
                 }
             }
 
-            return mult;
+            return mult; //321
         }
     }
 }

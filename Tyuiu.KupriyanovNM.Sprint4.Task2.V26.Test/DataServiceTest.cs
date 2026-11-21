@@ -14,7 +14,7 @@ namespace Tyuiu.KupriyanovNM.Sprint4.Task2.V26.Test
 
             int wait = 105;
 
-            Assert.AreEqual(wait, res);
+            Assert.AreEqual(wait, res); //321
         }
     }
 }
