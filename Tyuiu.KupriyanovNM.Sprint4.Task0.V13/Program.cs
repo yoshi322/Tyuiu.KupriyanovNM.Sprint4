@@ -39,7 +39,7 @@ namespace Tyuiu.KupriyanovNM.Sprint4.Task0.V13
 
             Console.WriteLine("Сумма четных элементов массива = " + sum);
 
-            Console.ReadKey();
+            Console.ReadKey(); //321
         }
     }
 }

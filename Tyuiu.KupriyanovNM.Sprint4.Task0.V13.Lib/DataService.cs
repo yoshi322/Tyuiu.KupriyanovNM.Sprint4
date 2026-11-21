@@ -15,7 +15,7 @@ namespace Tyuiu.KupriyanovNM.Sprint4.Task0.V13.Lib
                 }
             }
 
-            return sum;
+            return sum; //321
         }
     }
 }
